@@ -1,0 +1,287 @@
+nav{ 
+    margin: 0;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+}
+nav, ul{
+    list-style-type: none;
+}
+nav, ul, li{
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+.subtopic{
+    text-align: center;
+    background-color: #083a55;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+h1{
+    font-size: xx-large;
+    color: #083a55;
+}
+.one{
+    background-image: url("https://tech4dev.com/./assets/images/home/sliderimage/slider-13b.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    margin: 0;
+}
+.subone{
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 80px;
+}
+.donate{
+    background-color:  rgb(230, 99, 84);
+    color: white;
+    border-radius: 5px;
+}
+.vision{
+    width: 55%;
+    padding: 20px;
+    margin: 30px;
+    
+}
+.side-photo{
+    width: 90%;
+    box-shadow: 10px 10px  #083a55;
+}
+.goal{
+    display: flex;
+    padding: 80px;
+     
+ 
+}
+.project{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 2rem;
+    
+    
+}
+h1{
+    text-align: center;
+}
+.project-1, .project-2, .project-3{
+    border: 1px rgba(0, 0, 0, 0.267) solid;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 15px;
+    padding: 10px;
+    margin: 80px;
+}
+.item-1 img{
+    background-color: purple;
+    padding: 35px;
+    border-radius: 55px;
+    width: 40px;
+
+}
+
+.item-2 img{
+    background-color: #083a55;
+    padding: 35px;
+    border-radius: 60px;
+    width: 55px;
+
+}
+
+.item-3 img{
+    background-color: orange;
+    padding: 35px;
+    border-radius: 50px;
+
+}
+
+.item-4 img{
+    background-color: green;
+    padding: 35px;
+    border-radius: 50px;
+
+}
+
+.item-5 img{
+    background-color: blue;
+    padding: 35px;
+    border-radius: 50px;
+
+}
+ #image-5, #image-4, #image-3, #image-2, #image-1{
+    width: 20px;
+}
+.item-1, .item-2, .item-3, .item-4, .item-5{
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.short{
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/assets/images/home/83cf5427c89eb98970766505a7deafaf07738db0/index-5.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 250px;
+
+}
+
+.short-one{
+    color: white;
+    text-align: center;
+    padding: 40px;
+
+    
+}
+
+.testimony{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2rem;
+    margin: 40px;
+    gap: 2rem;
+    text-align: center;
+    
+    
+}
+
+.test{
+    border: 1rem  grey;
+    border-style: initial;
+    text-align: center;
+
+
+}
+.test-2, .test-3{
+    width: 100px;
+    border-radius: 60px;
+    
+}
+.test-1{
+    width:80px;
+    border-radius: 80px;
+}
+footer{
+    background-color: #083a55;
+    color: white;
+    padding-top: 40px;
+    margin: 0;
+
+
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.link a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    padding: 5px;
+}
+
+.blog a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    padding: 10px;
+
+}
+
+.address a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.end a{
+    color: white ;
+
+}
+
+.part{
+    display: grid;
+    grid-template-columns: 50px repeat(6, 1fr) 50px;
+}
+.part-1, .part-8{
+    width: 10px;
+    padding: 20px;
+}
+.part-2{
+    width: 100px;
+    padding: 10px;
+}
+.part-3{
+    width: 50px;
+    padding: 10px;
+}
+.part-4{
+    width: 200px;
+    padding: 10px;
+    
+
+}
+.part-5{
+    width: 50px;
+    padding: 10px;
+    
+}
+.part-6{
+    padding: 10px;
+}
+.part-7{
+    width: 100px;
+    padding: 10px;
+    
+}
+
+.partnered{
+    background-image: url("https://tech4dev.com/assets/images/home/index-6.png");
+    background-size: cover;
+    height: 150px;
+    color: white;
+    text-align: center;
+    padding: 10px; 
+}
+.partnered a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(230, 99, 84);
+    padding: 10px;
+    border-radius: 3px;
+}
+
+
+.end{
+
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 20px;
+    background-color: aqua;
+    
+}
+.ends{
+    background-color: rgb(230, 99, 84);
+    text-decoration: none;
+
+
+}
+  /*.youtube{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+}
+
