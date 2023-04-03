@@ -370,6 +370,34 @@ legend{
     margin-bottom: 40px;
 
 }
+@media screen and(max-width: 550px){
+    nav{
+        display: none;
+    }
+    body{
+        display: grid;
+    }
+}
+
+
+.r-btn:hover{
+    border: 4px solid red;
+
+}
+
+.r-btn{
+    position: fixed;
+    bottom: 40px;
+   right: 25px;
+   z-index: 20;
+   padding: 5PX;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    border: 4px solid pink;
+
+
+}
 
 
 
